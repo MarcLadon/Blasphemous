@@ -3,8 +3,8 @@ th { text-align: left;}
 .table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th { background-color: #E9E9E9;}
 .in_progress { color: #CC6600; }
 .done { color: #009933; }
-li.Rosaire_SmallBlueWax li.Rosaire_MediumBlueWax li.Rosaire_perle_immaculee{}
-li.Quete_KeyRoom li.Quete_thym li.Quete_ail li.Quete_romarin li.Quete_girofle li.Quete_olive li.Quete_ail_suie li.Quete_etoffe_lin li.Quete_main_tranchee li.Quete_Sangle li.Quete_Tendudia_1 li.Quete_Tendudia_2 li.Quete_Tendudia_3 li.Quete_Marque_refuge_1 li.Quete_Marque_refuge_2 li.Quete_Marque_refuge_3 li.Quete_Incomplete_Scapular li.Quete_oeuf_difformite {}
+li.Rosaire_SmallBlueWax li.Rosaire_MediumBlueWax li.Rosaire_perle_immaculee li.Rosaire_olive_gelee{}
+li.Quete_KeyRoom li.Quete_thym li.Quete_ail li.Quete_romarin li.Quete_girofle li.Quete_olive li.Quete_ail_suie li.Quete_etoffe_lin li.Quete_main_tranchee li.Quete_Sangle li.Quete_Tendudia_1 li.Quete_Tendudia_2 li.Quete_Tendudia_3 li.Quete_Marque_refuge_1 li.Quete_Marque_refuge_2 li.Quete_Marque_refuge_3 li.Quete_Incomplete_Scapular li.Quete_oeuf_difformite li.Quete_gobelet_dore_vide li.Quete_Saint_blessure_de_scrupule li.Quete_fleur_sechees{}
 li.Relique_Sang li.Relique_Langue li.Relique_Linceul li.Relique_Linge {}
 li.Boss_Crisanta li.Boss_Warden li.Boss_Esdras li.Boss_Ten_Piedad { }
 
