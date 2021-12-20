@@ -4,11 +4,28 @@ th { text-align: left;}
 .in_progress { color: #CC6600; }
 .done { color: #009933; }
 li.Rosary_SmallBlueWax {}
-li.KeyItem_KeyRoom { }
+li.Quete_KeyRoom { }
+li.Quete_thym { }
+li.Quete_ail { }
+li.Quete_romarin { }
+li.Quete_girofle { }
+li.Quete_olive { }
+li.Quete_ail_suie { }
+li.Quete_etoffe_lin { }
+li.Quete_main_tranchee { }
+li.Quete_Sangle { }
+li.Quete_Tendudia_1 { }
+li.Quete_Tendudia_2 { }
+li.Quete_Tendudia_3 { }
+li.Quete_Marque_refuge_1 { }
+li.Quete_Marque_refuge_2 { }
+li.Quete_Marque_refuge_3 { }
+li.Quete_Incomplete_Scapular { }
+li.Quete_oeuf_difformite { }
 li.Relique_Sang { }
 li.Relique_Langue { }
+li.Relique_Linceul { }
 li.Relique_Linge { }
-li.Quete_Incomplete_Scapular { }
 li.Boss_Crisanta { }
 li.Boss_Warden { }
 
