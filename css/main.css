@@ -3,7 +3,7 @@ th { text-align: left;}
 .table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th { background-color: #E9E9E9;}
 .in_progress { color: #CC6600; }
 .done { color: #009933; }
-Blood { display: none;}
+.Blood { display: none;}
 
 @media print {
     body { color: #000; }
