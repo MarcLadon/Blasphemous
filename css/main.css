@@ -3,14 +3,14 @@ th { text-align: left;}
 .table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th { background-color: #E9E9E9;}
 .in_progress { color: #CC6600; }
 .done { color: #009933; }
-li.Rosary_SmallBlueWax { display: block;}
-li.KeyItem_KeyRoom { display: block;}
-li.Relique_Sang { display: block;}
-li.Relique_Langue { display: block;}
-li.Relique_Linge { display: block;}
-li.Quete_Incomplete_Scapular { display: block;}
-li.Boss_Crisanta { display: block;}
-li.Boss_Warden { display: block;}
+li.Rosary_SmallBlueWax {}
+li.KeyItem_KeyRoom { }
+li.Relique_Sang { }
+li.Relique_Langue { }
+li.Relique_Linge { }
+li.Quete_Incomplete_Scapular { }
+li.Boss_Crisanta { }
+li.Boss_Warden { }
 
 @media print {
     body { color: #000; }
