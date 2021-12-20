@@ -12,4 +12,4 @@ th { text-align: left;}
     .tab-pane { page-break-after: always; }
 }
 
-li[class="Blood"] { display: none;}
+.Blood { display: none;}
