@@ -193,8 +193,8 @@
             if ($(this).attr('data-bossmelquiades')) {
                 $(this).addClass($(this).attr('data-bossmelquiades'));
             }
-            if ($(this).attr('data-data-bossisidora')) {
-                $(this).addClass($(this).attr('data-data-bossisidora'));
+            if ($(this).attr('data-bossisidora')) {
+                $(this).addClass($(this).attr('data-bossisidora'));
             }
             if ($(this).attr('data-bossamanecidagoldenblades')) {
                 $(this).addClass($(this).attr('data-bossamanecidagoldenblades'));
