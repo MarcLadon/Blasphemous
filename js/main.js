@@ -203,9 +203,5 @@
             return profile;
         }
     }
-    
-    function addClass(e1,e2) {
-        e1.addClass(e2);
-    }
 
 })( jQuery );
