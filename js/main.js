@@ -237,10 +237,9 @@
     
     function dataUnlock(dataUnlockValue,isChecked) {
         $("[ "+ dataUnlockValue + "]").each(function() {
-            alert("1" + isChecked);
-            $(this).addClass("toto");
+            alert("A" + dataUnlockValue);
+            
             if(isChecked) {
-                alert("2" + $(this).attr('dataUnlockValue'));
                 $(this).removeClass($(this).attr('dataUnlockValue'));
             }
         });
