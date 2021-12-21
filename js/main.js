@@ -17,6 +17,8 @@
             if ($(this).attr('data-id')) {
                 addCheckbox(this);
             }
+            alert("toto");
+            alert($(this).attr('data-quetekeyroom'));
             if ($(this).attr('data-quetekeyroom')) {
                 addClass(this,$(this).attr('data-quetekeyroom'));
             }
