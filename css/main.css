@@ -6,7 +6,8 @@ th { text-align: left;}
 li.Rosaire_SmallBlueWax li.Rosaire_MediumBlueWax li.Rosaire_SmallRedWax li.Rosaire_perle_immaculee li.Rosaire_olive_gelee{}
 li.Quete_KeyRoom li.Quete_thym li.Quete_ail li.Quete_romarin li.Quete_girofle li.Quete_olive li.Quete_ail_suie li.Quete_etoffe_lin li.Quete_main_tranchee li.Quete_Sangle li.Quete_Tendudia_1 li.Quete_Tendudia_2 li.Quete_Tendudia_3 li.Quete_Marque_refuge_1 li.Quete_Marque_refuge_2 li.Quete_Marque_refuge_3 li.Quete_Incomplete_Scapular li.Quete_oeuf_difformite li.Quete_oeuf_difformite_eclot li.Quete_gobelet_dore_vide li.Quete_Saint_blessure_de_scrupule li.Quete_Saint_blessure_d_attrition li.Quete_Saint_blessure_de_contrition li.Quete_fleur_sechees li.Quete_cle_des_hautes_cimes li.Quête_chalice li.Quete_voile_de_deuil_noir li.Quete_Ruban_nuptial_dechire li.Quete_Pieces_de_metal_fondu {}
 li.Relique_Sang li.Relique_Langue li.Relique_Linceul li.Relique_Linge li.Relique_ongle li.Relique_poumon {}
-li.Boss_Crisanta li.Boss_Warden li.Boss_Esdras li.Boss_Ten_Piedad li.Boss_our_lady { }
+li.Boss_Crisanta li.Boss_Warden li.Boss_Esdras li.Boss_Ten_Piedad li.Boss_our_lady li.Boss_tres_angustias li.Boss_sierpes li.Boss_isidora li.Boss_Laudes li.Boss_Amanecida_of_the_bejeweled_arrow li.Boss_Amanecida_of_the_golden_blades li.Boss_Amanecida_of_the_chiselled_steel li.Boss_Amanecida_of_the_Molten_Thorn {}
+li.PNJ_Jibrael_1 li.PNJ_Jibrael_2 li.PNJ_Jibrael_3 li.PNJ_Jibrael_4 li.PNJ_Jibrael_5{}
 
 @media print {
     body { color: #000; }
