@@ -17,7 +17,7 @@ li.data-challenge1, li.data-challenge2, li.data-challenge3, li.data-challenge4, 
 
 li.data-pnjjibrael1, li.data-pnjjibrael2, li.data-pnjjibrael3, li.data-pnjjibrael4, li.data-pnjjibrael5 {display:none}
 
-li.data-confession1, li.data-confession2, li.data-confession3, li.data-confession4, li.data-confession5, li.data-confession6 {display:none}
+li.data-confession1, li.data-confession2, li.data-confession3, li.data-confession4, li.data-confession5, li.data-confession6, li.data-confession7 {display:none}
 
 @media print {
     body { color: #000; }
