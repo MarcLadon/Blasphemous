@@ -14,7 +14,7 @@
 
         $('ul li').each(function(index) {
             if ($(this).attr('data-id')) {
-                addCheckbox(this);
+               // addCheckbox(this);
             }
             if ($(this).attr('data-quetekeyroom')) {
                 alert("toto");
