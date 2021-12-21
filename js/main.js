@@ -242,7 +242,7 @@
             if(isChecked) {
                 $(this).removeClass($(this).attr('dataUnlockValue'));
             }
-        }
+        });
     }
 
 })( jQuery );
