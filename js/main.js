@@ -237,11 +237,12 @@
     
     function dataUnlock(dataUnlockValue,isChecked) {
         $("[ "+ dataUnlockValue + "]").each(function() {
-            alert("1 " + dataUnlockValue);
             
             if(isChecked) {
                 $(this).removeClass(dataUnlockValue);
-            }
+            } else {
+                $(this).addClass(dataUnlockValue);
+            } 
         });
     }
 
