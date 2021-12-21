@@ -40,6 +40,15 @@
             if ($(this).attr('data-quetekeyroom')) {
                 $(this).addClass($(this).attr('data-quetekeyroom'));
             }
+            if ($(this).attr('data_quetegobeletdorevide')) {
+                $(this).addClass($(this).attr('data_quetegobeletdorevide'));
+            }
+            if ($(this).attr('data_quetesainteblessuredescrupule')) {
+                $(this).addClass($(this).attr('data_quetesainteblessuredescrupule'));
+            }
+            if ($(this).attr('data-queteclehautescimes')) {
+                $(this).addClass($(this).attr('data-queteclehautescimes'));
+            }
             if ($(this).attr('data-quetescapulaireincomplet')) {
                 $(this).addClass($(this).attr('data-quetescapulaireincomplet'));
             }
