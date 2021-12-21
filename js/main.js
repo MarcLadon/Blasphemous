@@ -62,7 +62,8 @@
             $.jStorage.set(profilesKey, profiles);
             
             if ($(this).parent().parent().attr('data-unlock')) {
-                 dataUnlock($(this),$(this).parent().parent().attr('data-unlock'),isChecked);    
+                alert("A" + $(this).parent().parent().attr('data-unlock'));
+                 dataUnlock($(this).parent().parent().attr('data-unlock'),isChecked);    
             }
             
             calculateTotals();
@@ -235,21 +236,7 @@
         }
     }
     
-    function dataUnlock(e1,dataUnlockValue,isChecked) {
-        alert("0");
-        $(e1).parent().parent().find('li').each(function() {
-            alert("1" + $(this).attr(data-id));
-            if($(this).attr(dataUnlockValue)) {
-                alert("2");
-                if(isChecked) {
-                alert("3");
-                    $(this).removeClass($(this).attr(dataUnlockValue));
-                } else {
-                alert("4");
-                    $(this).addClass($(this).attr(dataUnlockValue));
-                }
-            }
-        });
+    function dataUnlock(dataUnlockValue,isChecked) {
     }
 
 })( jQuery );
