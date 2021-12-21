@@ -25,8 +25,8 @@
             if ($(this).attr('data-rosairemediumbluewax')) {
                 $(this).addClass($(this).attr('data-rosairemediumbluewax'));
             }
-            if ($(this).attr('data-data-rosairebigbluewax')) {
-                $(this).addClass($(this).attr('data-data-rosairebigbluewax'));
+            if ($(this).attr('data-rosairebigbluewax')) {
+                $(this).addClass($(this).attr('data-rosairebigbluewax'));
             }
             if ($(this).attr('data-rosairesmallredwax')) {
                 $(this).addClass($(this).attr('data-rosairesmallredwax'));
@@ -34,8 +34,8 @@
             if ($(this).attr('data-rosairemediumredwax')) {
                 $(this).addClass($(this).attr('data-rosairemediumredwax'));
             }
-            if ($(this).attr('data-data-rosairebigredwax')) {
-                $(this).addClass($(this).attr('data-data-rosairebigredwax'));
+            if ($(this).attr('data-rosairebigredwax')) {
+                $(this).addClass($(this).attr('data-rosairebigredwax'));
             }
             if ($(this).attr('data-rosairepetitorteilgres')) {
                 $(this).addClass($(this).attr('data-rosairepetitorteilgres'));
