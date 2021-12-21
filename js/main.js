@@ -60,7 +60,12 @@
                 $(this).prop('checked', isChecked);
             });
             $.jStorage.set(profilesKey, profiles);
-          
+            
+            alert($(this).parent().parent().attr('data-unlock'))
+            if ($(this).parent().parent().attr('data-unlock')) {
+                 dataUnlock();    
+            }
+            
             calculateTotals();
         });
 
@@ -229,6 +234,10 @@
         for (var profile in profiles[profilesKey]) {
             return profile;
         }
+    }
+    
+    function dataUnlock() {
+        
     }
 
 })( jQuery );
