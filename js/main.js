@@ -17,9 +17,7 @@
                // addCheckbox(this);
             }
             if ($(this).attr('data-quetekeyroom')) {
-                alert("toto");
-             alert($(this).attr('data-quetekeyroom'));
-                addClass(this,$(this).attr('data-quetekeyroom'));
+                this.addClass($(this).attr('data-quetekeyroom'));
             }
         });
 
