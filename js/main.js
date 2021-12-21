@@ -63,8 +63,7 @@
             
             
             if ($(this).parent().parent().attr('data-unlock')) {
-                alert($(this).parent().parent().attr('data-unlock'));
-                 dataUnlock();    
+                 dataUnlock($(this),$(this).parent().parent().attr('data-unlock'),isChecked);    
             }
             
             calculateTotals();
@@ -237,8 +236,11 @@
         }
     }
     
-    function dataUnlock() {
-        
+    function dataUnlock(e1,dataUnlock,isChecked) {
+        $(e1).parent().parent().find('li').each(function() {
+            var id = $(this).attr('data-reliquesang');
+            alert(id);
+        }
     }
 
 })( jQuery );
