@@ -271,6 +271,9 @@
             if ($(this).attr('data-confession6')) {
                 $(this).addClass($(this).attr('data-confession6'));
             }
+            if ($(this).attr('data-confession7')) {
+                $(this).addClass($(this).attr('data-confession7'));
+            }
         });
 
         populateProfiles();
