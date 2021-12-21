@@ -16,8 +16,35 @@
             if ($(this).attr('data-id')) {
                addCheckbox(this);
             }
+            if ($(this).attr('data-rosaireperleimmaculee')) {
+                $(this).addClass($(this).attr('data-rosaireperleimmaculee'));
+            }
+            if ($(this).attr('data-rosairesmallbluewax')) {
+                $(this).addClass($(this).attr('data-rosairesmallbluewax'));
+            }
             if ($(this).attr('data-quetekeyroom')) {
                 $(this).addClass($(this).attr('data-quetekeyroom'));
+            }
+            if ($(this).attr('data-quetescapulaireincomplet')) {
+                $(this).addClass($(this).attr('data-quetescapulaireincomplet'));
+            }
+            if ($(this).attr('data-reliquesang')) {
+                $(this).addClass($(this).attr('data-reliquesang'));
+            }
+            if ($(this).attr('data-reliquelangue')) {
+                $(this).addClass($(this).attr('data-reliquelangue'));
+            }
+            if ($(this).attr('data-reliquelinceul')) {
+                $(this).addClass($(this).attr('data-reliquelinceul'));
+            }
+            if ($(this).attr('data-reliquelinge')) {
+                $(this).addClass($(this).attr('data-reliquelinge'));
+            }
+            if ($(this).attr('data-bosswarden')) {
+                $(this).addClass($(this).attr('data-bosswarden'));
+            }
+            if ($(this).attr('data-bosscrisanta')) {
+                $(this).addClass($(this).attr('data-bosscrisanta'));
             }
         });
 
