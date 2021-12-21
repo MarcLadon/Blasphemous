@@ -61,9 +61,8 @@
             });
             $.jStorage.set(profilesKey, profiles);
             
-            alert("1" + $(this).parent().attr('data-unlock'));
-            alert("2" + $(this).parent().parent().attr('data-unlock'));
             if ($(this).parent().parent().attr('data-unlock')) {
+                 alert("2" + $(this).parent().parent().attr('data-unlock'));
                  dataUnlock($(this),$(this).parent().parent().attr('data-unlock'),isChecked);    
             }
             
