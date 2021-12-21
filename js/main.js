@@ -240,7 +240,7 @@
         $(e1).parent().parent().find('li').each(function() {
             var id = $(this).attr('data-reliquesang');
             alert(id);
-        }
+        });
     }
 
 })( jQuery );
