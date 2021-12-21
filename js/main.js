@@ -62,7 +62,6 @@
             $.jStorage.set(profilesKey, profiles);
             
             if ($(this).parent().parent().attr('data-unlock')) {
-                alert("A" + $(this).parent().parent().attr('data-unlock'));
                  dataUnlock($(this).parent().parent().attr('data-unlock'),isChecked);    
             }
             
@@ -238,8 +237,9 @@
     
     function dataUnlock(dataUnlockValue,isChecked) {
         $("[ "+ dataUnlockValue + "]").each(function(index) {
-            alert("B");
+            alert("1" + isChecked);
             if(isChecked) {
+                alert("2" + $(this).attr('dataUnlockValue'));
                 $(this).removeClass($(this).attr('dataUnlockValue'));
             }
         });
