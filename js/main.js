@@ -61,7 +61,8 @@
             });
             $.jStorage.set(profilesKey, profiles);
             
-            
+            alert("1" + $(this).parent().attr('data-unlock'));
+            alert("2" + $(this).parent().parent().attr('data-unlock'));
             if ($(this).parent().parent().attr('data-unlock')) {
                  dataUnlock($(this),$(this).parent().parent().attr('data-unlock'),isChecked);    
             }
@@ -238,8 +239,9 @@
     
     function dataUnlock(e1,dataUnlock,isChecked) {
         $(e1).parent().parent().find('li').each(function() {
-            var id = $(this).attr('data-reliquesang');
-            alert(id);
+            if($(this).attr(dataUnlock)) {
+                alert(id);
+            }
         });
     }
 
