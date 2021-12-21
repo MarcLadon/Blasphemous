@@ -236,8 +236,9 @@
     }
     
     function dataUnlock(dataUnlockValue,isChecked) {
-        $("[ "+ dataUnlockValue + "]").each(function(index) {
+        $("[ "+ dataUnlockValue + "]").each(function() {
             alert("1" + isChecked);
+            $(this).addClass("toto");
             if(isChecked) {
                 alert("2" + $(this).attr('dataUnlockValue'));
                 $(this).removeClass($(this).attr('dataUnlockValue'));
