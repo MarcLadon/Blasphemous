@@ -17,10 +17,16 @@
             if ($(this).attr('data-id')) {
                 addCheckbox(this);
             }
+            if ($(this).attr('data-quetekeyroom')) {
+                addClass(this,$(this).attr('data-quetekeyroom'));
+            }
         });
         $('ul li').each(function(index) {
             if ($(this).attr('data-id')) {
                 addCheckbox(this);
+            }
+            if ($(this).attr('data-quetekeyroom')) {
+                addClass(this,$(this).attr('data-quetekeyroom'));
             }
         });
 
@@ -36,6 +42,7 @@
                 $(this).prop('checked', isChecked);
             });
             $.jStorage.set(profilesKey, profiles);
+          
             calculateTotals();
         });
 
@@ -204,6 +211,10 @@
         for (var profile in profiles[profilesKey]) {
             return profile;
         }
+    }
+    
+    function addClass(e1,e2) {
+        e1.addClass(e2);
     }
 
 })( jQuery );
